@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.img {
+  width: 200px;
+  border-radius: 20px;
+}
+.review {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.author {
+  font-size: 32px;
+  margin: 10px;
+}
+.job {
+  font-size: 22px;
+  margin: 10px;
+}
+.info {
+  margin: 10px;
+  text-align: center;
+}
+.btn {
+  display: flex;
+  width: 100vw;
+  flex-direction: row;
+  justify-content:center;
+  align-items: center;
+  margin: 10px;
+
+}
+.btn button{
+    width: 150px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
